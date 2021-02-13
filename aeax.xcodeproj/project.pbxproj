@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		83B37AE925D862560027C96C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B37AE825D862560027C96C /* main.cpp */; };
 		83B37AF225D862FD0027C96C /* Challenge 1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B37AF025D862FD0027C96C /* Challenge 1.cpp */; };
+		83B37AF725D863B80027C96C /* Challenge 1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B37AF525D863B80027C96C /* Challenge 1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		83B37AE825D862560027C96C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		83B37AF025D862FD0027C96C /* Challenge 1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Challenge 1.cpp"; sourceTree = "<group>"; };
 		83B37AF125D862FD0027C96C /* Challenge 1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Challenge 1.hpp"; sourceTree = "<group>"; };
+		83B37AF525D863B80027C96C /* Challenge 1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Challenge 1.cpp"; sourceTree = "<group>"; };
+		83B37AF625D863B80027C96C /* Challenge 1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Challenge 1.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,7 @@
 		83B37ADC25D862560027C96C = {
 			isa = PBXGroup;
 			children = (
+				83B37AF425D863A10027C96C /* Challenges 1 */,
 				83B37AE725D862560027C96C /* aeax */,
 				83B37AE625D862560027C96C /* Products */,
 			);
@@ -65,6 +69,15 @@
 				83B37AF125D862FD0027C96C /* Challenge 1.hpp */,
 			);
 			path = aeax;
+			sourceTree = "<group>";
+		};
+		83B37AF425D863A10027C96C /* Challenges 1 */ = {
+			isa = PBXGroup;
+			children = (
+				83B37AF525D863B80027C96C /* Challenge 1.cpp */,
+				83B37AF625D863B80027C96C /* Challenge 1.hpp */,
+			);
+			path = "Challenges 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B37AF225D862FD0027C96C /* Challenge 1.cpp in Sources */,
+				83B37AF725D863B80027C96C /* Challenge 1.cpp in Sources */,
 				83B37AE925D862560027C96C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
