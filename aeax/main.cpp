@@ -4,11 +4,20 @@
 //
 //  Created by Chris G on 2/13/21.
 //
-
 #include <iostream>
+using namespace std;
+int main()
+{
+int i, y;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+cout << "Enter 2 values to check which is greater.";
+cin >> i;
+cin >> y;
+
+if (i > y)
+    cout << i << "is greater than" << y << "\n";
+else
+    cout << y << "is greater than" << i << "\n";
+
+return 0;
 }
